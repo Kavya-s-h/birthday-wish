@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Brother | A Special Surprise</title>
+    <meta name="description" content="A special emotional birthday surprise for the best brother in the world.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="bg-music" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="section">
+            <div class="floating-elements" id="balloons-container"></div>
+            <div class="hero-content">
+                <div class="cake-emoji animate-bounce">🎂</div>
+                <h1 class="title fade-in">Happy Birthday Anna <span class="sparkle">🎉</span></h1>
+                <p class="subtext fade-in-delayed">You are the best brother in my life.</p>
+                <button id="surprise-btn" class="btn pulse">Open Your Surprise 🎁</button>
+            </div>
+        </section>
+
+        <!-- Memory Section -->
+        <section id="memories" class="section hidden">
+            <h2 class="section-title">Cherished Memories</h2>
+            <div class="memory-grid">
+                <div class="memory-card">
+                    <img src="assets/sibling_bond.jpg" alt="Sibling Bond" style="object-position: center;">
+                    <div class="caption">The unbreakable bond of a brother and sister. 💖</div>
+                </div>
+
+                <div class="memory-card">
+                    <img src="assets/rakhi.jpg" alt="Rakhi Celebration" style="object-position: center;">
+                    <div class="caption">A special bond: Raksha Bandhan ❤️</div>
+                </div>
+
+                <div class="memory-card">
+                    <img src="assets/rakhi_close.jpg" alt="Rakhi Close-up">
+                    <div class="caption">The thread of love and protection.</div>
+                </div>
+
+                <div class="memory-card">
+                    <img src="assets/gift_surprise.jpg" alt="Gift Surprise">
+                    <div class="caption">A surprise for the best brother! 🎁</div>
+                </div>
+
+
+
+                <div class="memory-card">
+                    <img src="assets/rakhi_ritual.jpg" alt="Rakhi Ritual">
+                    <div class="caption">Celebrating our beautiful traditions. 🏮</div>
+                </div>
+
+                <div class="memory-card">
+                    <img src="assets/sibling_love_cartoon.jpg" alt="Sibling Love Cartoon">
+                    <div class="caption">Double the trouble, double the fun! 👫</div>
+                </div>
+
+                <div class="memory-card">
+                    <img src="assets/best_brother_quote.jpg" alt="Best Brother Quote">
+                    <div class="caption">Happiness is having you as my brother. ❤️</div>
+                </div>
+
+                <div class="memory-card">
+                    <img src="assets/sister_is_gift.jpg" alt="Sister Gift Quote">
+                    <div class="caption">The best gift you ever got was ME! 😂</div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <!-- Message Section -->
+        <section id="message" class="section hidden">
+            <div class="message-box">
+                <p class="emotional-text">
+                    "You are not just my brother, you are my best friend. Thank you for always supporting me. Through
+                    every high and low, you've been my rock. I'm so lucky to have you in my life."
+                </p>
+                <div class="heart-animation">❤️</div>
+            </div>
+        </section>
+
+        <!-- Final Surprise Section -->
+        <section id="final-surprise" class="section hidden">
+            <div class="final-content">
+                <h1 class="final-title">Happy Birthday ❤️</h1>
+                <p>May all your dreams come true!</p>
+                <button id="replay-btn" class="btn">Celebrate Again 🎊</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
